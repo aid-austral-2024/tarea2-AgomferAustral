@@ -15,36 +15,46 @@ Con 5000 registros recopilados de empleados de todo el mundo, este conjunto de d
 
 
 ### Columnas
-Employee_ID
-Age
-Gender
-Job_Role
-Industry
-Years_of_Experience
-Work_Location
-Hours_Worked_Per_Week
-Number_of_Virtual_Meetings
-Work_Life_Balance_Rating
-Stress_Level
-Mental_Health_Condition
-Access_to_Mental_Health_Resources
-Productivity_Change
-Social_Isolation_Rating
-Satisfaction_with_Remote_Work
-Company_Support_for_Remote_Work
-Physical_Activity
-Sleep_Quality
-Region
 
+Cantidad de Columnas: 20
 
+$ Employee_ID:                      <chr> "EMP0001", "EMP0002", "EMP0003", "EM…
 
-Employee_ID: identificador único para cada empleado.
-Age: edad del empleado.
-Gender: género del empleado.
-Job_Role: función actual del empleado.
-Industry: industria en la que trabaja.
-Work_Location: si trabaja de forma remota, híbrida o presencial.
-Stress_Level: su nivel de estrés autoinformado.
-Mental_Health_Condition: cualquier condición de salud mental informada (ansiedad, depresión, etc.).
-Social_Isolation_Rating: una calificación autoinformada (1-5) sobre qué tan aislados se sienten.
-Satisfaction_with_Remote_Work: qué tan satisfechos están con los acuerdos de trabajo remoto (satisfechos, neutrales, insatisfechos).
+$ Age:                              <dbl> 32, 40, 59, 27, 49, 59, 31, 42, 56, …
+
+$ Gender:                           <chr> "Non-binary", "Female", "Non-binary"…
+
+$ Job_Role:                         <chr> "HR", "Data Scientist", "Software En…
+
+$ Industry:                         <chr> "Healthcare", "IT", "Education", "Fi…
+
+$ Years_of_Experience:               <dbl> 13, 3, 22, 20, 32, 31, 24, 6, 9, 28,…
+
+$ Work_Location:                     <chr> "Hybrid", "Remote", "Hybrid", "Onsit…
+
+$ Hours_Worked_Per_Week:             <dbl> 47, 52, 46, 32, 35, 39, 51, 54, 24, …
+
+$ Number_of_Virtual_Meetings:        <dbl> 7, 4, 11, 8, 12, 3, 7, 7, 4, 6, 3, 1…
+
+$ Work_Life_Balance_Rating:          <dbl> 2, 1, 5, 4, 2, 4, 3, 3, 2, 1, 3, 4, …
+
+$ Stress_Level:                      <chr> "Medium", "Medium", "Medium", "High"…
+
+$ Mental_Health_Condition:           <chr> "Depression", "Anxiety", "Anxiety", …
+
+$ Access_to_Mental_Health_Resources: <chr> "No", "No", "No", "Yes", "Yes", "No"…
+
+$ Productivity_Change:               <chr> "Decrease", "Increase", "No Change",…
+
+$ Social_Isolation_Rating:           <dbl> 1, 3, 4, 3, 3, 5, 5, 5, 2, 2, 4, 4, …
+
+$ Satisfaction_with_Remote_Work:     <chr> "Unsatisfied", "Satisfied", "Unsatis…
+
+$ Company_Support_for_Remote_Work:   <dbl> 1, 2, 5, 3, 3, 1, 3, 4, 4, 1, 2, 3, …
+
+$ Physical_Activity:                 <chr> "Weekly", "Weekly", "None", "None", …
+
+$ Sleep_Quality:                     <chr> "Good", "Good", "Poor", "Poor", "Ave…
+
+$ Region:                            <chr> "Europe", "Asia", "North America", "…
+
